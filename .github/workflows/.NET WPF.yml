@@ -16,7 +16,7 @@ jobs:
       with:
          ref: "6.0.7"
     - name: Install Nuget
-      uses: nuget/setup-nuget@v
+      uses: nuget/setup-nuget@v1
       with:
         nuget-version: '5.x'
       
